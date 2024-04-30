@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Aditi Singh</h1>
 <h3 align="center">A passionate frontend developer from India</h3>
 
-- 🌱 I’m currently learning **JavaScript,CSS,FRameworks,DSA**
+- 🌱 I’m currently learning **JavaScript,CSS,Frameworks,DSA**
 
 - 💬 Ask me about **python,HTML,CSS,**
 
