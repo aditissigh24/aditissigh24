@@ -1,0 +1,57 @@
+<svg width="600" height="60" viewBox="0 0 600 60" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#FF2D9B;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#A855F7;stop-opacity:1" />
+    </linearGradient>
+    <style>
+      .typing-text {
+        font-family: 'Fira Code', 'Courier New', monospace;
+        font-size: 22px;
+        font-weight: 600;
+        fill: url(#grad);
+        dominant-baseline: middle;
+      }
+      .cursor {
+        fill: #FF2D9B;
+      }
+
+      .line { opacity: 0; }
+
+      .line1 { animation: show 21s infinite; }
+      .line2 { animation: show 21s 3s infinite; }
+      .line3 { animation: show 21s 6s infinite; }
+      .line4 { animation: show 21s 9s infinite; }
+      .line5 { animation: show 21s 12s infinite; }
+      .line6 { animation: show 21s 15s infinite; }
+      .line7 { animation: show 21s 18s infinite; }
+
+      @keyframes show {
+        0%   { opacity: 0; }
+        2%   { opacity: 1; }
+        14%  { opacity: 1; }
+        16%  { opacity: 0; }
+        100% { opacity: 0; }
+      }
+
+      @keyframes blink {
+        0%, 100% { opacity: 1; }
+        50%       { opacity: 0; }
+      }
+
+      .cursor-bar {
+        animation: blink 0.75s step-end infinite;
+      }
+    </style>
+  </defs>
+
+  <text x="50%" text-anchor="middle" y="50%" class="typing-text line line1">AI Engineer 🤖</text>
+  <text x="50%" text-anchor="middle" y="50%" class="typing-text line line2">Builds Agents &amp; LLM Apps 🧠</text>
+  <text x="50%" text-anchor="middle" y="50%" class="typing-text line line3">Designs Robust APIs 🔥</text>
+  <text x="50%" text-anchor="middle" y="50%" class="typing-text line line4">FullStack Developer 💻</text>
+  <text x="50%" text-anchor="middle" y="50%" class="typing-text line line5">MERN Stack Dev ⚡</text>
+  <text x="50%" text-anchor="middle" y="50%" class="typing-text line line6">Python Enthusiast 🐍</text>
+  <text x="50%" text-anchor="middle" y="50%" class="typing-text line line7">Always Building Something 🚀</text>
+
+  <rect class="cursor-bar" x="490" y="18" width="2.5" height="24" fill="#A855F7" rx="1"/>
+</svg>
