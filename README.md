@@ -10,7 +10,7 @@
 💻 Proficient in TypeScript, Python, Node.js and FastAPI  
 🎯 Focused on turning MVPs into reliable production systems serving 1,000+ daily active users  
 📚 Lifelong learner exploring agentic AI, RAG, and distributed systems  
-😄 Fun fact: I love being fun and bringing creativity to my work!  
+😄 Fun fact: I love being fun and bringing creativity to my work!!  
 
 ## 🔧 Technologies & Tools
 
